@@ -22,13 +22,14 @@ import { LoginPage } from '../pages/login/login';
 import { ComponentsModule } from '../components/components.module';
 // import { DatabaseProvider } from '../providers/database/database';
 
+// FIll in with credentials from firebase
 var firebaseConfig = {
-  apiKey: "AIzaSyAoaB1V-XRZRmAHFCBOGauWt7q7bdbdt8A",
-  authDomain: "fir-8a330.firebaseapp.com",
-  databaseURL: "https://fir-8a330.firebaseio.com",
-  projectId: "fir-8a330",
-  storageBucket: "fir-8a330.appspot.com",
-  messagingSenderId: "663876658839"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
 
 @NgModule({
